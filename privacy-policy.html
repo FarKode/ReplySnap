@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Reply Snap</title>
+    <meta name="description" content="Privacy Policy for Reply Snap - Chat Reply Maker by FarKode">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #e0e0e0;
+            min-height: 100vh;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 60px 0 40px;
+        }
+
+        .header .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #8B5CF6, #6D28D9);
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 32px rgba(139, 92, 246, 0.35);
+        }
+
+        .header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            background: linear-gradient(90deg, #c084fc, #8B5CF6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+
+        .header .subtitle {
+            color: #a0a0b0;
+            font-size: 15px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(139, 92, 246, 0.15);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            color: #c084fc;
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: 16px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+            transition: border-color 0.3s ease;
+        }
+
+        .card:hover {
+            border-color: rgba(139, 92, 246, 0.25);
+        }
+
+        .card h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #f0f0f0;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .card h2 .icon {
+            width: 36px;
+            height: 36px;
+            background: rgba(139, 92, 246, 0.15);
+            border-radius: 10px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        .card p {
+            color: #b0b0c0;
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+
+        .card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .card ul li {
+            color: #b0b0c0;
+            font-size: 15px;
+            padding: 8px 0;
+            padding-left: 28px;
+            position: relative;
+        }
+
+        .card ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #8B5CF6;
+            font-weight: 700;
+        }
+
+        .highlight-box {
+            background: rgba(34, 197, 94, 0.08);
+            border: 1px solid rgba(34, 197, 94, 0.2);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 16px 0;
+        }
+
+        .highlight-box p {
+            color: #86efac;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        .warning-box {
+            background: rgba(251, 191, 36, 0.08);
+            border: 1px solid rgba(251, 191, 36, 0.2);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 16px 0;
+        }
+
+        .warning-box p {
+            color: #fcd34d;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+        }
+
+        table th {
+            text-align: left;
+            padding: 12px 16px;
+            background: rgba(139, 92, 246, 0.1);
+            color: #c084fc;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            color: #b0b0c0;
+            font-size: 14px;
+        }
+
+        table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            margin-top: 40px;
+        }
+
+        .footer p {
+            color: #606070;
+            font-size: 13px;
+        }
+
+        .footer a {
+            color: #8B5CF6;
+            text-decoration: none;
+        }
+
+        strong { color: #e8e8f0; }
+
+        @media (max-width: 640px) {
+            .container { padding: 20px 16px 60px; }
+            .header { padding: 40px 0 30px; }
+            .header h1 { font-size: 24px; }
+            .card { padding: 24px 20px; }
+            .card h2 { font-size: 18px; }
+            table th, table td { padding: 10px 12px; font-size: 13px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">⚡</div>
+            <h1>Reply Snap</h1>
+            <p class="subtitle">Chat Reply Maker by FarKode</p>
+            <span class="badge">Privacy Policy</span>
+        </div>
+
+        <!-- Effective Date -->
+        <div class="card">
+            <h2><span class="icon">📅</span> Effective Date</h2>
+            <p>This Privacy Policy is effective as of <strong>July 11, 2026</strong> and applies to the Reply Snap mobile application ("App") developed and published by <strong>FarKode</strong> ("we", "us", or "our").</p>
+            <p>Package Name: <strong>com.farkode.replysnap</strong></p>
+        </div>
+
+        <!-- Our Core Promise -->
+        <div class="card">
+            <h2><span class="icon">🛡️</span> Our Core Promise</h2>
+            <div class="highlight-box">
+                <p>🔒 Reply Snap is a 100% offline application. Your data never leaves your device. We do not collect, store, transmit, or sell any personal information to any server, cloud service, or third party.</p>
+            </div>
+        </div>
+
+        <!-- Information We Do NOT Collect -->
+        <div class="card">
+            <h2><span class="icon">🚫</span> Information We Do NOT Collect</h2>
+            <p>Reply Snap does <strong>not</strong> collect any of the following:</p>
+            <ul>
+                <li>Names, email addresses, or phone numbers</li>
+                <li>Location data (GPS, IP-based, or network-based)</li>
+                <li>Contacts, call logs, or SMS messages</li>
+                <li>Photos, videos, or files beyond the user-selected screenshot</li>
+                <li>Device identifiers (IMEI, MAC address, serial number)</li>
+                <li>Browsing history or search queries</li>
+                <li>Financial or payment information</li>
+                <li>Biometric data (fingerprints, face scans)</li>
+                <li>Health, fitness, or medical data</li>
+                <li>User account credentials or login tokens</li>
+            </ul>
+        </div>
+
+        <!-- How the App Works -->
+        <div class="card">
+            <h2><span class="icon">⚙️</span> How the App Works</h2>
+            <p>Reply Snap allows users to take or select a screenshot of a chat conversation, extract the text using on-device Optical Character Recognition (OCR), and generate contextual reply suggestions — all processed <strong>entirely on the user's device</strong>.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Process</th>
+                        <th>Where It Happens</th>
+                        <th>Data Sent to Server?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Screenshot text extraction (OCR)</td>
+                        <td>On-device (Google ML Kit)</td>
+                        <td>❌ No</td>
+                    </tr>
+                    <tr>
+                        <td>Reply generation</td>
+                        <td>On-device (local templates)</td>
+                        <td>❌ No</td>
+                    </tr>
+                    <tr>
+                        <td>Reply history storage</td>
+                        <td>On-device (Hive local database)</td>
+                        <td>❌ No</td>
+                    </tr>
+                    <tr>
+                        <td>Favorites</td>
+                        <td>On-device (Hive local database)</td>
+                        <td>❌ No</td>
+                    </tr>
+                    <tr>
+                        <td>Language & tone preferences</td>
+                        <td>On-device (Hive local database)</td>
+                        <td>❌ No</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- PII Redaction -->
+        <div class="card">
+            <h2><span class="icon">🔐</span> Personally Identifiable Information (PII) Protection</h2>
+            <p>When text is extracted from screenshots, the App automatically detects and redacts sensitive information <strong>before</strong> storing anything in the local reply history. This includes:</p>
+            <ul>
+                <li>Email addresses (e.g., user@example.com → [EMAIL REDACTED])</li>
+                <li>Phone numbers — Bangladesh (+880) and India (+91) formats</li>
+                <li>OTP codes, PIN numbers, and verification codes</li>
+            </ul>
+            <div class="highlight-box">
+                <p>✅ This redaction happens entirely on your device. No PII is ever stored in the reply history database, even locally.</p>
+            </div>
+        </div>
+
+        <!-- Third-Party Services -->
+        <div class="card">
+            <h2><span class="icon">📡</span> Third-Party Services</h2>
+            <p>Reply Snap integrates the following third-party services, which have their own privacy policies:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Purpose</th>
+                        <th>Data Collected by Service</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Google AdMob</strong></td>
+                        <td>Banner and rewarded video advertisements</td>
+                        <td>Advertising ID, device info, interaction data (by Google)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Google Firebase Analytics</strong></td>
+                        <td>Anonymous app usage analytics</td>
+                        <td>App opens, session duration, crash reports (by Google)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Google ML Kit</strong></td>
+                        <td>On-device text recognition (OCR)</td>
+                        <td>None — fully processed on-device</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="warning-box">
+                <p>⚠️ Google AdMob and Firebase may collect anonymous device-level data as described in <a href="https://policies.google.com/privacy" style="color: #fcd34d;">Google's Privacy Policy</a>. Reply Snap does not control this data collection and does not have access to any personally identifiable data collected by these services.</p>
+            </div>
+        </div>
+
+        <!-- Advertisements -->
+        <div class="card">
+            <h2><span class="icon">📺</span> Advertisements</h2>
+            <p>Reply Snap displays advertisements through Google AdMob to support the free availability of the App. These ads may include:</p>
+            <ul>
+                <li><strong>Banner Ads:</strong> displayed on the home screen</li>
+                <li><strong>Rewarded Video Ads:</strong> shown when the user has reached the free usage limit (every 3 generations)</li>
+            </ul>
+            <p>Users are never forced to watch ads. If an ad fails to load or the device is offline, the App continues to function normally without blocking access.</p>
+        </div>
+
+        <!-- Permissions -->
+        <div class="card">
+            <h2><span class="icon">🔑</span> App Permissions</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Permission</th>
+                        <th>Why It's Needed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Internet Access</td>
+                        <td>Required solely for loading advertisements (AdMob) and sending anonymous analytics (Firebase). Not used for transmitting any user-generated content.</td>
+                    </tr>
+                    <tr>
+                        <td>Camera (optional)</td>
+                        <td>Only when the user explicitly chooses to take a photo of a message for OCR scanning. Never activated without user action.</td>
+                    </tr>
+                    <tr>
+                        <td>Storage / Media (optional)</td>
+                        <td>Only when the user selects an existing screenshot from the gallery. No files are read without explicit user selection.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="highlight-box">
+                <p>✅ Reply Snap does NOT require: Accessibility Services, Contacts, SMS, Call Logs, Microphone, or Background Location permissions.</p>
+            </div>
+        </div>
+
+        <!-- Data Retention -->
+        <div class="card" id="deletion">
+            <h2><span class="icon">🗄️</span> Data Retention & Deletion</h2>
+            <p>All data generated by Reply Snap (reply history, favorites, preferences) is stored <strong>exclusively on your device</strong> using an encrypted local database (Hive).</p>
+            <ul>
+                <li>Reply history is automatically capped at the <strong>20 most recent entries</strong></li>
+                <li>Users can <strong>manually delete all history</strong> at any time from the Settings screen</li>
+                <li><strong>Uninstalling the App</strong> permanently and irrecoverably deletes all locally stored data</li>
+                <li>No backups of your data are stored on any server or cloud service</li>
+            </ul>
+        </div>
+
+        <!-- Children's Privacy -->
+        <div class="card">
+            <h2><span class="icon">👶</span> Children's Privacy</h2>
+            <p>Reply Snap is rated for <strong>Everyone</strong> and does not knowingly collect personal information from children under the age of 13. The App does not require account creation, login, or any form of personal data input. If you are a parent or guardian and believe your child has provided personal data through a third-party service integrated in the App, please contact us.</p>
+        </div>
+
+        <!-- Security -->
+        <div class="card">
+            <h2><span class="icon">🔒</span> Security Measures</h2>
+            <ul>
+                <li>All local data is stored in an encrypted Hive database on the device</li>
+                <li>The release build uses R8 code obfuscation and Proguard rules to prevent reverse engineering</li>
+                <li>PII is automatically redacted before any local storage operation</li>
+                <li>No API keys, tokens, or user credentials are stored in the application</li>
+                <li>The App is signed with a secure 2048-bit RSA release key</li>
+            </ul>
+        </div>
+
+        <!-- Changes to Policy -->
+        <div class="card">
+            <h2><span class="icon">📝</span> Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated "Effective Date." We encourage users to review this page periodically. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+        </div>
+
+        <!-- Contact -->
+        <div class="card">
+            <h2><span class="icon">📧</span> Contact Us</h2>
+            <p>If you have any questions, concerns, or requests regarding this Privacy Policy or the App's data practices, please contact us at:</p>
+            <p><strong>Developer:</strong> FarKode</p>
+            <p><strong>Email:</strong> <a href="mailto:farkode.dev@gmail.com" style="color: #8B5CF6;">farkode.dev@gmail.com</a></p>
+            <p><strong>App:</strong> Reply Snap - Chat Reply Maker</p>
+            <p><strong>Package:</strong> com.farkode.replysnap</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 FarKode. All rights reserved.</p>
+            <p style="margin-top: 8px;">Reply Snap — Smart Replies, One Screenshot Away.</p>
+        </div>
+    </div>
+</body>
+</html>

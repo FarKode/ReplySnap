@@ -1,0 +1,37 @@
+name: reply_snap
+description: "Offline-first, zero-cost screenshot-to-reply mobile application."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  firebase_analytics: ^12.4.3
+  firebase_core: ^4.11.0
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  google_mlkit_text_recognition: ^0.13.0
+  google_mobile_ads: ^9.0.0
+  hive_flutter: ^1.1.0
+  image_picker: ^1.1.2
+  receive_sharing_intent: ^1.7.0
+  share_plus: ^10.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.jpeg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/app_icon.jpeg
